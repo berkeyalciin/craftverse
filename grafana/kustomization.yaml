@@ -7,3 +7,8 @@ helmCharts:
   releaseName: kube-prometheus-stack
   namespace: grafana
   version: 67.10.0
+- name:  grafana
+  repo:  https://grafana.github.io/helm-charts
+  releaseName: grafana
+  namespace: grafana
+  version: 8.8.2
