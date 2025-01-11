@@ -3,7 +3,7 @@ kind: Kustomization
 
 helmCharts:
 - name: kps
-  repo:  https://prometheus-community.github.io/helm-charts
+  repo:  https://prometheus-community.github.io/helm-charts/kube-prometheus-stack
   releaseName: kube-prometheus-stack
   namespace: grafana
   version: 67.10.0
