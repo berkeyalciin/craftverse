@@ -6,4 +6,4 @@ helmCharts:
   repo:  https://prometheus-community.github.io/helm-charts
   releaseName: charts/kube-prometheus-stack
   namespace: grafana
-  version: v0.79.2
+  version: 67.10.0
